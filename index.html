@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="osnov_form">
+        <div class="form_btn">
+            <a id="btn_show" href="#popup" type="submit">Показать форму</a>
+        </div>
+        <div id="popup" class="popup">
+            <div class="form">
+                <form id="forma" class="forma" action="https://formcarry.com/s/ErtLoPscQSU" accept-charset="UTF-8">
+                    <div class="close">
+                        <a id="btn_hide" href="#">Закрыть</a>
+                    </div>
+                    <div class="head">
+                        <h1>The form</h1>
+                    </div>
+                    <div class="name">
+                        <label class="f_label">Имя:</label>
+                        <input class="f_input chk" type="text" placeholder="Введите имя" name="name">
+                    </div>
+                    <div class="email">
+                        <label class="f_label">E-mail:</label>
+                        <input class="f_input chk" type="email" placeholder="Введите e-mail" name="E-mail">
+                    </div>
+                    <div class="biography">
+                        <label class="f_label">Биография:</label>
+                        <textarea class="f_input" placeholder="Введите биографию" name="Biography"></textarea>
+                    </div>
+                    <div class="checkbox">
+                        <input class="f_input checkbox chk" type="checkbox" name="Checkbox">
+                        <label>согласен с <a href="#">политикой обработки персональных данных</a>.</label>
+                    </div>
+                    <div class="send">
+                        <button id="send" type="submit" class="btn_send">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
